@@ -45,6 +45,9 @@ def get_author_dict():
         'Kashyap Chitta': 'https://kashyap7x.github.io/',
         'Katrin Renz': 'https://www.katrinrenz.de/',
         'Aditya Prakash': 'https://ap229997.github.io/',
+        'Li Chen': 'https://www.linkedin.com/in/li-chen-30b256167/',
+        'Penghao Wu': 'https://www.linkedin.com/in/penghao-wu-8b908623a/',
+        'Hongyang Li': 'https://lihongyang.info/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Bernhard Jaeger', add_links=True):
@@ -81,6 +84,8 @@ def get_paper_entry(entry_key, entry):
     s += f"""{generate_person_html(entry.persons['author'])} <br>"""
     if 'booktitle' in entry.fields.keys():
         s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+    elif 'journal' in entry.fields.keys():
+        s += f"""<span style="font-style: italic;">{entry.fields['journal']}</span>, {entry.fields['year']} <br>"""
     else:
         s += f"""<span style="font-style: italic;">{entry.fields['school']}</span>, {entry.fields['year']} <br>"""
 
@@ -95,7 +100,7 @@ def get_paper_entry(entry_key, entry):
 
     cite = f"<pre><code>@{entry.original_type}{{" + f"{entry_key}, \n"
     cite += "\tauthor = {" + f"{generate_person_html(entry.persons['author'], make_bold=False, add_links=False, connection=' and ')}" + "}, \n"
-    for entr in ['title', 'booktitle', 'year', 'school']:
+    for entr in ['title', 'booktitle', 'year', 'school', 'journal', 'volume']:
         if entr in entry.fields.keys():
             cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
     cite += """}</pre></code>"""
