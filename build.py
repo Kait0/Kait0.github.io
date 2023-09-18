@@ -8,10 +8,10 @@ def get_personal_data():
     linkedin = "bernhard-jaeger-289b65160"
     youtube = "@bernhard_jaeger"
     bio_text = f"""
-                <p>I am a PhD student at the University of Tübingen, where I am part of the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group </a> led by <a href="https://www.cvlibs.net/" target="_blank"> Prof. Andreas Geiger</a>. I am part of the <a href="https://imprs.is.mpg.de/" target="_blank"> International Max Plank Research School for Intelligent Systems</a>.
+                <p>I am a PhD student at the University of Tübingen, where I am part of the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group </a> led by <a href="https://www.cvlibs.net/" target="_blank"> Prof. Andreas Geiger</a>. My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank"> International Max Plank Research School for Intelligent Systems</a>.
                 <p>
                     <span style="font-weight: bold;">Research:</span>
-                     My main interests are in autonomy and computer vision. My work currently focuses on end-to-end autonomous driving approaches. I like to think about autonomous driving from a holistic perspective and evaluate entire systems closed-loop. 
+                    My main interest is embodied intelligence and its application to autonomous driving. I study various topics in subfields like computer vision, machine learning, robotics and reinforcement learning. My recent publications focus on end-to-end autonomous driving approaches. We take a holistic perspective on autonomous driving by building entire driving systems and evaluating them closed-loop on public benchmarks. 
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
