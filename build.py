@@ -48,6 +48,8 @@ def get_author_dict():
         'Li Chen': 'https://www.linkedin.com/in/li-chen-30b256167/',
         'Penghao Wu': 'https://www.linkedin.com/in/penghao-wu-8b908623a/',
         'Hongyang Li': 'https://lihongyang.info/',
+        'Takeru Miyato': 'https://takerum.github.io/',
+        'Max Welling': 'https://staff.fnwi.uva.nl/m.welling/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Bernhard Jaeger', add_links=True):
@@ -89,7 +91,7 @@ def get_paper_entry(entry_key, entry):
     else:
         s += f"""<span style="font-style: italic;">{entry.fields['school']}</span>, {entry.fields['year']} <br>"""
 
-    artefacts = {'html': 'Project Page', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
+    artefacts = {'html': 'Abs', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
     i = 0
     for (k, v) in artefacts.items():
         if k in entry.fields.keys():
