@@ -3,7 +3,7 @@ from pybtex.database.input import bibtex
 def get_personal_data():
     name = ["Bernhard", "Jaeger"]
     email = "bernhard.jaeger@uni-tuebingen.de"
-    twitter = "Kait0o0"
+    twitter = "bern_jaeger"
     github = "Kait0"
     linkedin = "bernhard-jaeger-289b65160"
     youtube = "@bernhard_jaeger"
