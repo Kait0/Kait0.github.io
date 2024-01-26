@@ -11,11 +11,11 @@ def get_personal_data():
                 <p>I am a PhD student at the University of Tübingen, where I am part of the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group </a> led by <a href="https://www.cvlibs.net/" target="_blank"> Prof. Andreas Geiger</a>. My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank"> International Max Plank Research School for Intelligent Systems</a>.
                 <p>
                     <span style="font-weight: bold;">Research:</span>
-                    My main interest is embodied intelligence and its application to autonomous driving. I study various topics in subfields like computer vision, machine learning, robotics and reinforcement learning. My recent publications focus on end-to-end autonomous driving approaches. We take a holistic perspective on autonomous driving by building entire driving systems and evaluating them closed-loop on public benchmarks. 
+                    My main interest is embodied intelligence and its application to autonomous driving. I study various topics in subfields like computer vision, machine learning, robotics and reinforcement learning. My recent publications focus on end-to-end autonomous driving, reinforcement learning and perceptual representation learning. 
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
-                     I studied B.Sc. Informatics: Games Engineering at the <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich</a>. Following that I worked for 1 year as a software developer at <a href="https://www.ferchau.com/de/de" target="_blank">FERCHAU</a>  where I developed the graphics software for a digital light technology. Afterwards I did a M.Sc. in Computer Science at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a>. I started my PhD at the Autonomous Vision Group in April 2022.
+                     I studied B.Sc. Informatics: Games Engineering at the <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich</a>. Following that I worked for 1 year as a software developer at <a href="https://www.ferchau.com/de/de" target="_blank">FERCHAU</a>  as graphics developer. Afterwards I did a M.Sc. in Computer Science at the <a href="https://uni-tuebingen.de/en/" target="_blank">University of Tübingen</a>. I started my PhD at the Autonomous Vision Group in April 2022.
                 </p>
                 <p>
                     <a href="assets/pdf/CV_Bernhard_Jaeger.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
@@ -91,7 +91,7 @@ def get_paper_entry(entry_key, entry):
     else:
         s += f"""<span style="font-style: italic;">{entry.fields['school']}</span>, {entry.fields['year']} <br>"""
 
-    artefacts = {'html': 'Abs', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
+    artefacts = {'html': 'Abs', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code', 'website': 'Website'}
     i = 0
     for (k, v) in artefacts.items():
         if k in entry.fields.keys():
