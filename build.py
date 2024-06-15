@@ -200,8 +200,16 @@ def get_index_html():
                 <h4><b>News</b></h4>
                  <table>
                      <tr>
+                       <td>Jun 17, 2024 &#8194;</td>
+                       <td> Our team placed 2nd in the CARLA Challenge held at the CVPR 2024 Workshop <a href="https://opendrivelab.com/challenge2024/#carla" target="_blank"> Foundation Models for Autonomous Systems </a> </td>
+                     </tr>
+                     <tr>
+                       <td>Dec 14, 2023 &#8194;</td>
+                       <td> Our team placed 2nd in the CARLA Sensor Track challenge held at the <a href="https://ml4ad.github.io/" target="_blank">  Machine Learning for Autonomous Driving Symposium </a> in New Orleans. </td>
+                     </tr>
+                     <tr>
                        <td>Nov 21, 2022 &#8194;</td>
-                       <td> Our team won the CARLA leaderboard MAP Track challenge at the NeurIPS 2022 <a href="https://ml4ad.github.io/" target="_blank"> Machine Learning for Autonomous Driving </a> workshop.</td>
+                       <td> Our team won the CARLA leaderboard MAP Track challenge at the NeurIPS 2022 <a href="https://ml4ad.github.io/2022/" target="_blank"> Machine Learning for Autonomous Driving </a> workshop.</td>
                      </tr>
                      <tr>
                        <td>Apr 01, 2022 </td>
@@ -209,7 +217,7 @@ def get_index_html():
                      </tr>
                      <tr>
                        <td>Nov 22, 2021 </td>
-                       <td> Our team placed 2nd in the NeurIPS 2021 CARLA <a href="https://ml4ad.github.io/" target="_blank"> Machine Learning for Autonomous Driving </a>autonomous driving challenge </a>. </td>
+                       <td> Our team placed 2nd in the NeurIPS 2021 CARLA <a href="https://ml4ad.github.io/2021/" target="_blank"> Machine Learning for Autonomous Driving </a>autonomous driving challenge </a>. </td>
                      </tr>
                 </table> 
                     
