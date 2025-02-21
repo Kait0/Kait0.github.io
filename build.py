@@ -4,6 +4,7 @@ def get_personal_data():
     name = ["Bernhard", "Jaeger"]
     email = "bernhard.jaeger@uni-tuebingen.de"
     twitter = "bern_jaeger"
+    bluesky = "bernhard-jaeger.bsky.social"
     github = "Kait0"
     linkedin = "bernhard-jaeger-289b65160"
     youtube = "@bernhard_jaeger"
@@ -21,6 +22,7 @@ def get_personal_data():
                     <a href="assets/pdf/CV_Bernhard_Jaeger.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://twitter.com/{twitter}" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+                    <a href="https://bsky.app/profile/{bluesky}" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Bluesky</a>
                     <a href="https://scholar.google.de/citations?user=JpceFvgAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/{linkedin}" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
