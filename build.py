@@ -52,6 +52,9 @@ def get_author_dict():
         'Hongyang Li': 'https://lihongyang.info/',
         'Takeru Miyato': 'https://takerum.github.io/',
         'Max Welling': 'https://staff.fnwi.uva.nl/m.welling/',
+        'Daniel Dauner': 'https://danieldauner.github.io/',
+        'Jens Beißwenger': 'https://www.linkedin.com/in/jens-bei%C3%9Fwenger-a82430258/',
+        'Simon Gerstenecker': 'https://www.linkedin.com/in/simon-gerstenecker/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Bernhard Jaeger', add_links=True):
