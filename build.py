@@ -206,7 +206,7 @@ def get_index_html():
                  <table>
                     <tr>
                        <td>Jul 01, 2025 &#8194;</td>
-                       <td> The Vector Stiftung (foundation) supports my research with a grant of 91600 € for the project <br> "Skalierung von verstärkendem Lernen für Ende-zu-Ende Methoden für autonomes Fahren". </td>
+                       <td> The Vector Stiftung (foundation) supports my research with a grant of 91600 € for the project <br> "Skalierung von verstärkendem Lernen für Ende-zu-Ende Methoden für autonomes Fahren". <br> The grant was competitive, with a 5% acceptance rate (15/300). </td>
                      </tr>
                     <tr>
                        <td>Jun 11, 2025 &#8194;</td>
