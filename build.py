@@ -12,7 +12,15 @@ def get_personal_data():
                 <p>I am a PhD student at the University of Tübingen, where I am part of the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Autonomous Vision Group </a> led by <a href="https://www.cvlibs.net/" target="_blank"> Prof. Andreas Geiger</a>. My research is supported by the <a href="https://imprs.is.mpg.de/" target="_blank"> International Max Plank Research School for Intelligent Systems</a>.
                 <p>
                     <span style="font-weight: bold;">Research:</span>
-                    My main interest is embodied intelligence and its application to autonomous driving. I study various topics in subfields like computer vision, machine learning, robotics and reinforcement learning. My recent publications focus on end-to-end autonomous driving, reinforcement learning and perceptual representation learning. 
+                    My goal is to solve autonomous driving, which I view as an embodied intelligence problem. 
+                    My research has contributed to the development of end-to-end driving technology, which by now is being widely adopted by leading industry players like Waymo, Tesla, or NVIDIA.
+                    I worked on the TransFuser series of models, which is a widely used baseline in the literature. Our survey, <a href="https://ieeexplore.ieee.org/abstract/document/10614862">"End-to-end autonomous driving: Challenges and frontiers"</a> is the most cited introductory text in the field of end-to-end driving.
+                    Recently I have been working on reinforcement learning (RL) techniques for training planning policies. 
+                    Our method, <a href="https://arxiv.org/abs/2504.17838">CaRL</a> is the first open-source RL policy that outperformed the leading imitation learning methods on the nuPlan benchmark.
+                    
+                    I am committed to open contribution to the community. All my papers are freely available on arXiv, and all my code is available on GitHub. 
+                    <br><br>
+                    Currently, I am building a non-profit research organization to solve and open-source the science behind level 5 driving. We will be raising money and hiring people. Email me if you are interested.
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
@@ -55,6 +63,9 @@ def get_author_dict():
         'Daniel Dauner': 'https://danieldauner.github.io/',
         'Jens Beißwenger': 'https://www.linkedin.com/in/jens-bei%C3%9Fwenger-a82430258/',
         'Simon Gerstenecker': 'https://www.linkedin.com/in/simon-gerstenecker/',
+        'Long Nguyen': 'https://ln2697.github.io/',
+        'Micha Fauth': 'https://www.linkedin.com/in/micha-fauth-b4492a22b/?originalSubdomain=de',
+        'Maximilian Igl': 'https://maximilianigl.com/'
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Bernhard Jaeger', add_links=True):
@@ -200,10 +211,33 @@ def get_index_html():
                 {talks}
             </div>
         </div>
+        
+        <div class="row" style="margin-top: 3em;">
+            <div class="col-sm-12" style="">
+                <h4><b>Other activities</b></h4>
+                <ul>
+                <li>
+                    One concern that I have as an AI researcher when publishing code is that it can potentially be used in dual-use applications. 
+                    To solve this, I developed the <a href="https://civil-software-licenses.github.io/index.html", target="_blank">Civil Software Licenses</a>, which prevent dual-use of open-source software while being minimal in the restrictions they impose. 
+                </li>
+                <li>
+                    I am a proponent of rigorous experimental evaluation in autonomous driving research and wrote a <a href="https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/common_mistakes_in_benchmarking_ad.md", target="_blank">guide</a> about common mistakes in the community to help people avoid common pitfalls.
+                </li>
+                <li>
+                    The TransFuser series of models is in version 6 already. I have created a <a href="https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/history.md">history document</a> for people to have an easier overview.
+                </li>
+                </ul>
+            </div>
+        </div>
+        
         <div class="row" style="margin-top: 3em;">
             <div class="col-sm-12" style="">
                 <h4><b>News</b></h4>
                  <table>
+                    <tr>
+                      <td>Oct 26, 2026 &#8194;</td>
+                      <td> I was selected as Top Reviewer at NeurIPS 2025.</td>
+                    </tr>
                     <tr>
                        <td>Jul 01, 2025 &#8194;</td>
                        <td> The Vector Stiftung (foundation) supports my research with a grant of 91600 € for the project <br> "Skalierung von verstärkendem Lernen für Ende-zu-Ende Methoden für autonomes Fahren". <br> The grant was competitive, with a 5% acceptance rate (15/300). </td>
@@ -240,6 +274,7 @@ def get_index_html():
                     
             </div>
         </div>
+        
         <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
             {footer}
         </div>
