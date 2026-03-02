@@ -20,7 +20,7 @@ def get_personal_data():
                     
                     I am committed to open contribution to the community. All my papers are freely available on arXiv, and all my code is available on GitHub. 
                     <br><br>
-                    Currently, I am building a non-profit research organization to solve and open-source the science behind level 5 driving. We will be raising money and hiring people. Email me if you are interested.
+                    Currently, I am building a non-profit research organization to solve and open-source the science behind level 5 driving. We are hiring. Email me if you are interested.
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
