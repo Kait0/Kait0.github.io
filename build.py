@@ -9,7 +9,7 @@ def get_personal_data():
     linkedin = "bernhard-jaeger-289b65160"
     youtube = "@bernhard_jaeger"
     bio_text = f"""
-                <p> I am a co-founder of <a href="https://kesai.eu/">KE:SAI</a>, a non-profit frontier AI research lab where I also work. <a href="https://kesai.eu/join">We are hiring</a>.           
+                <p> I am a co-founder of <a href="https://kesai.eu/">KE:SAI</a>, a private non-profit AI research lab where I also work. <a href="https://kesai.eu/join">We are hiring</a>.           
                 <p>
                     <span style="font-weight: bold;">Research:</span>
                     My research focuses on autonomous driving, which I view as an embodied intelligence problem. 
@@ -47,9 +47,14 @@ def get_personal_data():
     footer = """
             <div class="col-sm-12" style="">
                 <p>
-                    Website template provided by  <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Michael Niemeyer</a>. <br>
+                    This website style was created by  <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Michael Niemeyer</a>. <br>
                     <a href="https://m-niemeyer.github.io/" target="_blank">&#9883;</a>
                     <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
+                    <a href="https://ln2697.github.io/" target="_blank">&#9883;</a>
+                    <a href="https://danieldauner.github.io/" target="_blank">&#9883;</a>
+                    <a href="https://mh0797.github.io/" target="_blank">&#9883;</a>
+                    <a href="https://patriciagschossmann.github.io/" target="_blank">&#9883;</a>
+                    <a href="https://s-esposito.github.io/" target="_blank">&#9883;</a>
                 </p>
             </div>
     """
@@ -242,7 +247,11 @@ def get_index_html():
                 <h4><b>News</b></h4>
                  <table>
                     <tr>
-                      <td>Oct 26, 2026 &#8194;</td>
+                      <td>May 01, 2025 &#8194;</td>
+                      <td> I cofounded <a href="https://kesai.eu">KE:SAI</a>, a private non-profit AI research lab. KE:SAI is a collaboration between <a href="https://kyutai.org">Kyutai</a> and the <a href="https://institute-tue.ellis.eu">ELLIS Institut Tübingen</a> with the goal to pioneer world leading research on world models and autonomy.</td>
+                    </tr>
+                    <tr>
+                      <td>Oct 26, 2025 &#8194;</td>
                       <td> I was selected as Top Reviewer at NeurIPS 2025.</td>
                     </tr>
                     <tr>
